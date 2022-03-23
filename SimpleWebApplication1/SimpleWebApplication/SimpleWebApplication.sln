@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebApplication", "SimpleWebApplication\SimpleWebApplication.csproj", "{C8087841-E78D-4FF1-9127-13E53753D049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SImpleWebApplication.Infrastructure", "SImpleWebApplication.Infrastructure\SImpleWebApplication.Infrastructure.csproj", "{C8F38F31-253A-4814-BEE8-A8AE7B562D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebApplication.ApplicationServices", "SimpleWebApplication.ApplicationServices\SimpleWebApplication.ApplicationServices.csproj", "{245AC431-D162-4D98-B9D9-F2C0C6EFD154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8087841-E78D-4FF1-9127-13E53753D049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8087841-E78D-4FF1-9127-13E53753D049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8087841-E78D-4FF1-9127-13E53753D049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8087841-E78D-4FF1-9127-13E53753D049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F38F31-253A-4814-BEE8-A8AE7B562D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F38F31-253A-4814-BEE8-A8AE7B562D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F38F31-253A-4814-BEE8-A8AE7B562D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F38F31-253A-4814-BEE8-A8AE7B562D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245AC431-D162-4D98-B9D9-F2C0C6EFD154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245AC431-D162-4D98-B9D9-F2C0C6EFD154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245AC431-D162-4D98-B9D9-F2C0C6EFD154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245AC431-D162-4D98-B9D9-F2C0C6EFD154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
