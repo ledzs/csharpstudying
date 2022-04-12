@@ -9,14 +9,13 @@ namespace ChangeElements
         public static int[] ChangeElementsInArray(int[] array, int k, int l)
         {
             //3. Обмен местами двух элементов массива с заданными номерами (индексами)
-            int[] arr = array;
-            int first = k;//индекс
-            int second = l;//индекс
-            int temp = arr[first];
-            arr[first] = arr[second];
-            arr[second] = temp;
+            
+            
+            int temp = array[k];
+            array[k] = array[l];
+            array[l] = temp;
 
-            return arr;
+            return array;
         }
         
     }

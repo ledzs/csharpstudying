@@ -9,9 +9,9 @@ namespace SimpleWebApplication.Controllers
     [Route("people-info")]
     public class PeopleInfoController : ControllerBase
     {
-        private readonly SwapiApplicationService _applicationService;
+        private readonly SwapiApplicationService _applicationService;//_ т.к. поле - приватное
 
-        public PeopleInfoController(SwapiApplicationService applicationService)
+        public PeopleInfoController(SwapiApplicationService applicationService)//конструктор контроллера
         {
             _applicationService = applicationService;
         }
